@@ -1,0 +1,26 @@
+POST http://localhost:4002/usuarios
+Content-Type: application/json
+
+{
+  "email": "Henrique@gmail.com",
+  "senha": 65156651
+}
+
+###
+
+GET http://localhost:4002/usuarios
+
+###
+GET http://localhost:4002/usuarios/51419d39-8557-405f-bcc8-605a38b55620
+
+###
+PUT http://localhost:4002/usuarios/a1f4784b-221a-4ea8-b1d5-f93397122004
+Content-Type: application/json
+
+{
+  "name": "Caderno 36 Folhas",
+  "price": 10.00
+}
+
+###
+DELETE http://localhost:4002/usuarios/59ba3a3b-722d-40ac-b799-0513607f830e
