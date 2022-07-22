@@ -1,2 +1,2 @@
 # EstudoNodeJS
-Cadastro de usuario com node
+Cadastro de usuário com node
